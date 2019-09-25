@@ -1,0 +1,5 @@
+Objects / Stāvoklis / Uzvedība
+Laptops / ieslēgts, izslēgs, vaļā, ciet, lādējas, strādā uz barijas, melns / atvērt, aizvērt, pieslēgt pie elektrotīkla, pieslgties WIFY, restartēt.
+Telefons / ieslēgts, izslēgs, lādējas, strādā uz barijas, melns, Lidojuma režīms, Blootooth / ieslēgt, izslēgt, pieslēgt pie elektrotīkla, pieslgties WIFY, on/off Lidojuma režīms, on/off Blootooth.
+Tāfele / Tīra, pilna, balta, pie sienas / Aprakstīt, Dzēst
+Projectors / ieslēgts, izslēgs, pie sienas, balts / on/off, connect to computer, connect stereo
