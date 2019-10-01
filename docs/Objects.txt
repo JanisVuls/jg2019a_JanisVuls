@@ -3,3 +3,8 @@ Laptops / ieslēgts, izslēgs, vaļā, ciet, lādējas, strādā uz barijas, mel
 Telefons / ieslēgts, izslēgs, lādējas, strādā uz barijas, melns, Lidojuma režīms, Blootooth / ieslēgt, izslēgt, pieslēgt pie elektrotīkla, pieslgties WIFY, on/off Lidojuma režīms, on/off Blootooth.
 Tāfele / Tīra, pilna, balta, pie sienas / Aprakstīt, Dzēst
 Projectors / ieslēgts, izslēgs, pie sienas, balts / on/off, connect to computer, connect stereo
+
+//tāfelei uzvedība drīzāk būs, "attēlo flomastera vilkto līniju"
+//jo objekta uzvedība ir atkarīgi tikai un vienīgi no paša objekta, nevis no citiem objektiem
+
+//OK
