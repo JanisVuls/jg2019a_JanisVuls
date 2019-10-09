@@ -1,4 +1,4 @@
-package lv.javaguru.lesson2;
+package lv.jg.classwork.lesson2;
 
 public class CalculateSum {
     public static void main(String[] args) {
@@ -8,6 +8,8 @@ public class CalculateSum {
 
         int sumResult = firstOperand + secondOperand;
         System.out.println(sumResult);
+
+        //pushTest
 
     }
 
