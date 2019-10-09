@@ -1,4 +1,4 @@
-package lv.javaguru.lesson2;
+package lv.jg.classwork.lesson2;
 
 public class HelloJavaGuru {
     public static void main(String[] args) {
