@@ -1,4 +1,4 @@
-package lv.jg.homework.lesson2;
+package lv.jg.lesson2.homework;
 
 import java.util.Random;
 

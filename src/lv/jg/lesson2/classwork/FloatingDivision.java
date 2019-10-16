@@ -1,4 +1,4 @@
-package lv.jg.classwork.lesson2;
+package lv.jg.lesson2.classwork;
 
 public class FloatingDivision {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lv.jg.classwork.lesson3;
+package lv.jg.lesson3.classwork;
 
 public class TestCommitPush {
 }
