@@ -1,7 +1,9 @@
 package lv.jg.homework.lesson2;
 
+//OK
 public class MathOperations {
     public static void main(String[] args) {
+        //ja jadefinē vērtība, tad labak definēt šos mainīgos atsevišķi
         int firstNumber = 33, secondNumber = 69,
                 sum, sub, mul, divInt;
         double divDouble, divCast;
