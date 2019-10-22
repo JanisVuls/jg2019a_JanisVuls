@@ -1,5 +1,6 @@
 package lv.jg.lesson3.homework2;
 
+//Ok
 public class Car {
 	private String color;
 	private String manufacturer;
