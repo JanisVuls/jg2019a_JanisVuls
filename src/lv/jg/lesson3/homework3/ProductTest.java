@@ -1,5 +1,5 @@
 package lv.jg.lesson3.homework3;
-
+//OK
 public class ProductTest {
     public static void main(String[] args) {
 

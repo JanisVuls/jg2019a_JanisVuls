@@ -1,6 +1,9 @@
 package lv.jg.lesson4.homework2;
 
+//Uzdevums nav saprasts - es paskaidrošu nodarbībā. Atgādini lūdzu par šo
 public class Stock {
+
+    //klases laukiem ir jābut "private"
     String company;
     double currentValue;
     double max;
@@ -9,6 +12,7 @@ public class Stock {
     public Stock(String company, double currentValue) {
         this.company = company;
         this.currentValue = currentValue;
+
         this.max = getMax(150.37,149.82,150.12);
         this.min = getMin(150.37,149.82,150.12);
     }

@@ -1,5 +1,6 @@
 package lv.jg.lesson3.homework2;
 
+//Ok
 public class CarTest {
 	public static void main(String[] args) {
 		
