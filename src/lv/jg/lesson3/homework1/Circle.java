@@ -7,18 +7,15 @@ public class Circle {
 	//metodi šajā gadījumā jādefinē kā "public"
 	double getRadius() {
 		return radius;
-
 	}
 
-	public void setRadius(double radius) {
+	public Circle(int radius) {
 		this.radius = radius;
-
 	}
 
 	//metodi šajā gadījumā jādefinē kā "public"
 	double calculateArea() {
 		return 3.14 * radius * radius;
-
 	}
 
 }

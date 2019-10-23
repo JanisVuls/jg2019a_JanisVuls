@@ -5,8 +5,7 @@ public class CircleTest {
 
 	public static void main(String[] args) {
 
-		Circle circle = new Circle();
-		circle.setRadius(5);
+		Circle circle = new Circle(1);
 
 		double circleArea = circle.calculateArea();
 		double radius = circle.getRadius();
