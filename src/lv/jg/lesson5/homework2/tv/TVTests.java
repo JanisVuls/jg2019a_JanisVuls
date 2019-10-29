@@ -1,4 +1,4 @@
-package lv.jg.lesson5.homework2;
+package lv.jg.lesson5.homework2.tv;
 
 public class TVTests {
 	
