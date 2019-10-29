@@ -8,9 +8,9 @@ public class Book {
 	private int pageCount;
 
 	Book(String author, String title, int pageCount) {
-		this.author = author;
-		this.pageCount = pageCount;
-		this.title = title;
+			this.author = author;
+			this.pageCount = pageCount;
+			this.title = title;
 	}
 
 	@Override
@@ -30,29 +30,4 @@ public class Book {
 				+ ", Title='" + title + '\''
 				+ ", Page count='" + pageCount + '\'' + '}';
 	}
-
-	public String getAuthor() {
-		return author;
-	}
-
-	public void setAuthor(String author) {
-		this.author = author;
-	}
-
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
-	public int getPageCount() {
-		return pageCount;
-	}
-
-	public void setPageCount(int pageCount) {
-		this.pageCount = pageCount;
-	}
-
 }

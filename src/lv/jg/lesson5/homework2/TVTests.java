@@ -4,7 +4,24 @@ public class TVTests {
 	
 	public static void main(String[] args) {
 		
-		TV myTV = new TV();
+		TV myTV = new TV("Samsung");
+		TV yourTV = new TV("Panasonic");
+
+		if (myTV.equals(myTV)) {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}
+
+		if (myTV.equals(yourTV)) {
+			System.out.println("true");
+		} else {
+			System.out.println("false");
+		}
+
+		System.out.println(myTV);
+
+
 		myTV.nextChannel();
 		myTV.previousChannel();
 		myTV.turnOn();
@@ -24,6 +41,8 @@ public class TVTests {
 		myTV.increaseVolume();
 		myTV.decreaseVolume();
 		myTV.decreaseVolume();
+
+
 
 
 	}
