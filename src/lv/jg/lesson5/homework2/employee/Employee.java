@@ -25,7 +25,7 @@ public class Employee {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Employee employee = (Employee) o;
-        return Objects.equals(employee.salary, employee.salary) &&
+        return Objects.equals(salary, employee.salary) &&
                 Objects.equals(contractNumber, employee.contractNumber) &&
                 Objects.equals(department, employee.department);
     }
