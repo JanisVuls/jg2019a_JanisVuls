@@ -29,8 +29,6 @@ public class TV {
 				+ "Manufacturer='" + manufacturer + '\'' + '}';
 	}
 
-
-
 	public int getCurrentVolumeLevel() {
 		return currentVolumeLevel;
 	}
@@ -38,8 +36,9 @@ public class TV {
 		if (turnedOn == true) {
 			currentVolumeLevel++;
 			System.out.println("Volume level " + getCurrentVolumeLevel());
+		} else {
+			System.out.println("TV is OFF");
 		}
-		onOrOff();
 	}
 	public void decreaseVolume() {
 		if (turnedOn == true) {
@@ -47,28 +46,31 @@ public class TV {
 			if (currentVolumeLevel < 0)
 				currentVolumeLevel = 0;
 			System.out.println("Volume level " + getCurrentVolumeLevel());
+		} else {
+			System.out.println("TV is OFF");
 		}
-		onOrOff();
 	}
 	public void mute() {
 		if (turnedOn == true) {
-			currentVolumeLevel = 0;;
+			currentVolumeLevel = 0;
 			System.out.println("MUTE");
+		} else {
+			System.out.println("TV is OFF");
 		}
-		onOrOff();
 	}
+
 	public int getCurrentChannel() {
 		return currentChannel;
 	}
-
 	public void nextChannel() {
 		if (turnedOn == true) {
 			currentChannel++;
 			if (currentChannel > 3)
 				currentChannel = 0;
 			System.out.println("Channel " + getCurrentChannel());
+		} else {
+			System.out.println("TV is OFF");
 		}
-		onOrOff();
 	}
 	public void previousChannel() {
 		if (turnedOn == true) {
@@ -76,25 +78,17 @@ public class TV {
 			if (currentChannel < 0)
 				currentChannel = 3;
 			System.out.println("Channel " + getCurrentChannel());
+		} else {
+			System.out.println("TV is OFF");
 		}
-		onOrOff();
 	}
 
 	public void turnOff() {
 		turnedOn = false;
-		onOrOff();
+		System.out.println("TV is OFF");
 	}
 	public void turnOn() {
 		turnedOn = true;
-			System.out.println("TV is ON");
-		onOrOff();
+		System.out.println("TV is ON");
 	}
-
-	public void onOrOff() {
-        if (turnedOn == true) {
-        } else {
-        	System.out.println("TV is OFF");
-        }
-    }
-
 }
