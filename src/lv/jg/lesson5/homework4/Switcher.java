@@ -18,7 +18,7 @@ public class Switcher {
     }
 
 
-
+// trūkst connect, ar to būtu jāpadod un jāieseto "LightBulb" objekts
 
 
 

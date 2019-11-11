@@ -5,7 +5,8 @@ public class User {
 	private String login;
 	private String password;
 	private int loginAttemptsLeft = 3;
-	private boolean blocked;
+	//lauks ir neizmantots, tādēļ tas nav vajadzīgs
+	private boolean blocked; //labāk izmantot "isBlocked" nosaukumu
 	
 	public void setPassword(String password) {
 		this.password = password;
@@ -27,6 +28,8 @@ public class User {
 	}
 
 	public boolean block() {
+		//šeit labak izmantot
+//		return loginAttemptsLeft == 0;
 		if (loginAttemptsLeft == 0) {
 			return true;
 		} else {
@@ -35,6 +38,8 @@ public class User {
 	}
 
 	public boolean compare() {
+		//šeit labak izmantot
+		//return password == "pica" && login == "Aleks";
 		if (password == "pica" && login == "Aleks") {
 			return true;
 		} else {

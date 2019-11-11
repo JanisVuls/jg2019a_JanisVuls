@@ -2,6 +2,7 @@ package lv.jg.lesson5.homework3;
 
 import java.util.Objects;
 
+//Sajā uzdevumā ir nepieciešams implementēt arī tvController metodes: nextChannel, previousChannel..
 public class TVController {
     private TV tv;
 

@@ -7,6 +7,7 @@ public class BookTest {
 		Book myBook = new Book("Rainis", "Uguns un Nakts", 3333);
 		Book yourBook = new Book("Aspazija", "Kakucis", 545);
 
+		//lab
 		if (myBook.equals(myBook)) {
 			System.out.println("true");
 		} else {

@@ -14,6 +14,7 @@ public class UserLoginService {
 	}
 
 	public static void login(String inputPassword, User user) {
+		// pietiek ar "if (user.block())"
 		if (user.block() == true) {
 			System.out.println(" Account is blocked");
 		} else {
@@ -23,6 +24,7 @@ public class UserLoginService {
 	}
 
 	public static void verify(User user) {
+		// pietiek ar "if (user.compare())"
 		if (user.compare() == true) {
 			user.resetLoginAttempts();
 			System.out.println("You are logged in.");

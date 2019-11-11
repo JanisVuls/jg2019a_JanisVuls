@@ -1,5 +1,8 @@
 package lv.jg.lesson5.homework2.employee;
 
+// * no loga konsolē nav saprotams,kas tiek testēts
+// * kodā testus vajag sadalīt atsevišķās metodēs
+// * izmanto metodes, lai iznestu loģiku, kurā atkātojas
 public class EmployeeTest {
     public static void main(String[] args) {
 

@@ -1,5 +1,6 @@
 package lv.jg.lesson5.homework4;
 
+//ok
 public class SwitcherTest {
     public static void main(String[] args) {
 

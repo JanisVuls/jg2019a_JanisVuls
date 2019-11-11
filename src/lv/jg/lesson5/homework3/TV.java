@@ -2,6 +2,8 @@ package lv.jg.lesson5.homework3;
 
 import java.util.Objects;
 
+// pietiek ar "if (turnedOn) {"
+// izmantojam "{}" pie ifa
 public class TV {
 
 	private int currentChannel, currentVolumeLevel;
@@ -29,7 +31,7 @@ public class TV {
 		return currentVolumeLevel;
 	}
 	public void increaseVolume() {
-		if (turnedOn == true) {
+		if (turnedOn == true) {// pietiek ar "if (turnedOn) {"
 			currentVolumeLevel++;
 			System.out.println("Volume level " + getCurrentVolumeLevel());
 		} else {
@@ -37,7 +39,7 @@ public class TV {
 		}
 	}
 	public void decreaseVolume() {
-		if (turnedOn == true) {
+		if (turnedOn == true) {// pietiek ar "if (turnedOn) {"
 			currentVolumeLevel--;
 			if (currentVolumeLevel < 0)
 				currentVolumeLevel = 0;

@@ -1,5 +1,6 @@
 package lv.jg.lesson5.homework4;
 
+//šeit MAX_TURN_ON_COUNT ir jābūt konstantei
 public class LightBulb {
     private boolean turnedOn;
     private int currentTurnOnCount;
