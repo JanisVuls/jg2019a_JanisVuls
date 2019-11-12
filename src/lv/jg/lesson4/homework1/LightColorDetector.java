@@ -8,7 +8,7 @@ public class LightColorDetector {
 		} else if ((wavelength >= 450) && (wavelength < 495)) {
 			return "Gaisma ir zila";
 		} else if ((wavelength >= 495) && (wavelength < 570)) {
-			return "Gaisma ir za�a";
+			return "Gaisma ir zaļa";
 		} else if ((wavelength >= 570) && (wavelength < 590)) {
 			return "Gaisma ir dzeltena";
 		} else if ((wavelength >= 590) && (wavelength < 620)) {

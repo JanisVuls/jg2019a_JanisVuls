@@ -8,8 +8,6 @@ public class TV {
 	private String manufacturer;
 	private boolean turnedOn;
 
-	//kādiem mērķiem ir izveidots šis konsuktors?
-	//jo tas netiek izmantots
 	TV() {
 	}
 
@@ -35,7 +33,7 @@ public class TV {
 		return currentVolumeLevel;
 	}
 	public void increaseVolume() {
-		if (turnedOn == true) {// pietiek ar "if (turnedOn) {"
+		if (turnedOn == true) {
 			currentVolumeLevel++;
 			System.out.println("Volume level " + getCurrentVolumeLevel());
 		} else {
@@ -43,9 +41,9 @@ public class TV {
 		}
 	}
 	public void decreaseVolume() {
-		if (turnedOn == true) {// pietiek ar "if (turnedOn) {"
+		if (turnedOn == true) {
 			currentVolumeLevel--;
-			if (currentVolumeLevel < 0)// izmantojam figūriekavas {}
+			if (currentVolumeLevel < 0)
 				currentVolumeLevel = 0;
 			System.out.println("Volume level " + getCurrentVolumeLevel());
 		} else {
