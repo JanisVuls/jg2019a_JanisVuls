@@ -6,9 +6,6 @@ public class NumberService {
 	private int i, j;
 	private int sum, evenNumberCount;
 	
-	
-	
-	
 	NumberService (int boundary1, int boundary2) {
 		this.boundary1 = boundary1;
 		this.boundary2 = boundary2;
@@ -55,6 +52,4 @@ public class NumberService {
 		}
 		System.out.println("Even number count = " + evenNumberCount + "; ");
 	}
-
-
 }
