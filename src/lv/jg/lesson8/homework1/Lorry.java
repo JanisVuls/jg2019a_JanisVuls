@@ -2,7 +2,9 @@ package lv.jg.lesson8.homework1;
 
 public class Lorry extends Car{
 
-	protected int beds; 
+	//šiem jābūt inkapsulētiem - private
+	//piekļuve tikai izmantojot public geterus un seterus
+	protected int beds;
 	
 	public Lorry(String manufacturer, int seats, int beds) {
 		super(manufacturer, seats);

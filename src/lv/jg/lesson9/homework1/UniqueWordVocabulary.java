@@ -4,7 +4,7 @@ package lv.jg.lesson9.homework1;
 import java.util.HashSet;
 import java.util.Set;
 
-
+//Nav izpildīti uzdevuma nosacījumi
 public class UniqueWordVocabulary {
 
 	public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class UniqueWordVocabulary {
 		        set.add("Jomo");
 		        set.add("Jolo");
 		    }
-		    
+
 		    private static void getUniqueWords(Set<String> set) {
 //				if (Set<String> set) {
 //
@@ -37,5 +37,5 @@ public class UniqueWordVocabulary {
 //				System.out.println("UniqueWords = " + UniqueWords);
 
 			}
-	
+
 }
