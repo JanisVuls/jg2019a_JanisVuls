@@ -35,15 +35,4 @@ public class User {
         return age >= 0 && age <= 120;
     }
 
-    public String getName() {
-        return this.name;
-    }
-	
-    public String getLastName() {
-        return this.lastName;
-    }
-    
-    public int getAge() {
-        return this.age;    
-    }
 }

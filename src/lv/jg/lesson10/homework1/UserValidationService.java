@@ -9,7 +9,7 @@ public class UserValidationService {
 }
 
 	private static void shouldCreateUser() {
-        User user = new User("Maksims", "Maisins", 10);
+        User user = new User("Maksims", "Maisins", 1111);
 	}
 
 	private static void shouldFailIfInputValueToSmall() {
