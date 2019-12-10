@@ -5,7 +5,8 @@ public class User {
 	private String name;
 	private String lastName;
 	int age;
-	
+
+	//validāciju labak iznest atsevišķā metodē un tai bija jabūt servisa klasē
 	public User(String name, String lastName, int age) {
         if (!isValidName(name)) {
             throw new IllegalArgumentException("Wrong input value for Name");
