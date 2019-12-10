@@ -1,0 +1,3 @@
+Product{name='Milk', price='1.0', category=DAIRY}
+Product{name='Cookies', price='1.99', category=PASTRY}
+
