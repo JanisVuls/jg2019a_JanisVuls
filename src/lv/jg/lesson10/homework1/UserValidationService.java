@@ -1,5 +1,7 @@
 package lv.jg.lesson10.homework1;
 
+//šai bija jābūt servisa klasei, kura veic User validāciju
+//bija jāizveido arī savas validationException
 public class UserValidationService {
 
 	public static void main(String[] args) {
